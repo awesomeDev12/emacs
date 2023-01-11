@@ -15,7 +15,7 @@
 
 (global-display-line-numbers-mode 1)
 
-;; (load-theme 'modus-vivendi' t)
+(load-theme 'modus-vivendi' t)
 ;; (load-theme 'deeper-blue' t)
 
 
