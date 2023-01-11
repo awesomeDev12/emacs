@@ -45,3 +45,11 @@
 
 ;; Revert Dired  and other buffers
 (setq global-auto-revert-non-file-buffers t)
+
+ ; stop creating ~ files
+(setq make-backup-files nil)
+
+; have the files backed up into 1 directory ~/.Trash/
+; (setq backup-directory-alist            '((".*" . "~/.Trash")))
+
+
